@@ -1,15 +1,23 @@
 # calceulatro
 # project-calculator
 #bach thsbli lar9am
-# now project calculator 
+# now project calculator
 import tkinter
 from tkinter import ttk
 from tkinter import *
 
+
 met = tkinter.Tk()
 met.title('calculator :)')  # title de forme
 met.geometry('600x300')  # size the forme
+met.maxsize(700,300)
+met.minsize(600,300)
+
 met.config(background='light blue')  # color de bg
+met.iconbitmap('calc.png')
+
+
+
 #######################################################################
 
 ###########################################################################
@@ -65,8 +73,7 @@ buttonnaks.grid(row = 0,column = 1)
 buttondarb.grid(row = 0,column = 2)
 buttonkisma.grid(row = 0,column = 3)
 
-lb = ttk.Label(met,text = 'resolte : ',font = fnt)
+lb = ttk.Label(met,text = 'resolte : ',background = 'red',font = fnt)
 lb.grid(row = 3,column = 0,columnspan = 1,pady = 10,padx = 10)
 
 met.mainloop() # fien de programe
-
