@@ -14,7 +14,7 @@ met.maxsize(700,300)
 met.minsize(600,300)
 
 met.config(background='light blue')  # color de bg
-met.iconbitmap('calc.png')
+#met.iconbitmap('calc.png')
 
 
 
@@ -77,3 +77,4 @@ lb = ttk.Label(met,text = 'resolte : ',background = 'red',font = fnt)
 lb.grid(row = 3,column = 0,columnspan = 1,pady = 10,padx = 10)
 
 met.mainloop() # fien de programe
+
